@@ -1,0 +1,72 @@
+
+/* common class */
+
+body{
+    margin: 0;
+}
+.container{
+    margin: 0;
+    padding: 50px;
+    background-color: #ccc;
+    height: 1000px;
+    font-family: Arial,sans-serif;
+}
+.content{
+    margin: 0 auto;
+    width: 52%;
+    background-color: blue;
+    display: flex;
+      min-width: 800px; height: 1000px;
+}
+.left{
+    width: 246px;
+    background-color: #28bb9c;
+    color: #fff;
+    text-align:center
+}
+
+.left__avatar{
+    padding: 20px 30px 1px;
+    background-color: #029c7c;
+}
+.avatar{
+    width: 180px;
+    border-radius: 50%;
+    justify-content: center;
+}
+.left__full-name{
+    margin: 0 -24px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+.left__major{
+    font-size: 14px;
+    margin: 0 0 20px 0;
+}
+.left__sub-content{
+    padding: 5px 12px;
+}
+.contact-list{
+    list-style: none;
+    text-align: start;
+    padding: 0;
+}
+.contact-item{
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+.right{
+    background-color: #fff;
+}
