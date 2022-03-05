@@ -9,12 +9,14 @@ body{
     padding: 50px;
     background-color: #ccc;
     height: 1000px;
-    font-family: Arial,sans-serif;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    
 }
 .content{
     margin: 0 auto;
     width: 52%;
-    background-color: blue;
+    background-color: #fff;
     display: flex;
       min-width: 800px; height: 1000px;
 }
@@ -27,7 +29,7 @@ body{
 
 .left__avatar{
     padding: 20px 30px 1px;
-    background-color: #029c7c;
+    background-color: rgb(2, 156, 125);
 }
 .avatar{
     width: 180px;
@@ -42,7 +44,6 @@ body{
     text-transform: uppercase;
 }
 .left__major{
-    font-size: 14px;
     margin: 0 0 20px 0;
 }
 .left__sub-content{
@@ -52,21 +53,110 @@ body{
     list-style: none;
     text-align: start;
     padding: 0;
+    margin: 0;
+    
 }
 .contact-item{
     padding: 5px 0;
-    font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
+.contact-icon{
+    margin-right: 4px;
+}
+.contact-link{
+    text-decoration: none;
+    color: #fff;
+}
+.contact-link:hover {
+    color: rgb(2, 156, 125);
+}
+.left__sub-title{
+    display: inline-block;
+    margin:16px 0 0 0;
+}
+.left__objective>p,
+.left__hobbies>ul{
+    text-align: start;
+    margin: 4px 0;
+}
+.left__hobbies>ul{
+    padding: 0 14px;
+    list-style: circle;
+}
+.left__hobbies>ul>li{
+    padding: 2px 0;
+}
 
 .right{
     background-color: #fff;
+    padding: 20px 12px 8px 20px;
+    color: #263831;
+    flex: 1;
+}
+.right__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.right__list-item{
+    margin: 0 0 20px 0;
+    border-bottom: 1px double #ccc;
+   
+}
+.right__list-item:last-child{
+    border: none;
+}
+.item-title{
+    font-size: 20px;
+    line-height:40px ;
+    font-weight: 700;
+    display: flex;
+    text-align: center;
+
+}
+
+.item-title-icon{
+    width: 20px;
+    height: 20px;
+    background-color: #029c7c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.item-content{
+    padding: 4px 0 0 12px;
+}
+.item-sub-title{
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: 8px 0 4px 0;
+}
+.item-time{
+    font-size: 12.6px;
+    color: #4c5647;
+}
+.item-description{
+    color: #4c5647;
+    margin: 4px 0;
+}
+.expensiver-list{
+    padding: 0 0 0 20px;
+    list-style: circle;
+}
+.coursera-link{
+    color: #1d7b68;
+}
+.expensiver-item{
+    margin: 4px 0;
+}
+.my-project{
+    padding-left: 16px;
+}
+.item-description-project-name{
+    margin: 0;
+}
+.StudentTranscript{
+    padding-left: 10px;
+    font-size: 13px;
 }
